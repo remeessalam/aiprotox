@@ -3,19 +3,27 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
+//service images
+import web from "./assets/images/services/web.png";
+import app from "./assets/images/services/app.png";
+import chat from "./assets/images/services/chat.png";
+import game from "./assets/images/services/game.png";
+import vrar from "./assets/images/services/vrar.png";
+import mvp from "./assets/images/services/mvp.png";
+import ai from "./assets/images/services/ai.png";
+import data from "./assets/images/services/data.png";
 
 export { logoImg };
 
 export const companyDetails = {
-  phone: "+919620715510",
-  phone2: "+919901933775",
+  phone: "+917008725766",
+  whatsapp: "+917008725766",
   address:
-    "208, Shri Sannidhi Apartment, 2nd Cross, Chikkappanna Layout, Hennur, Bengaluru - 560043",
-  email: "authaisolutions@gmail.com",
-  linkedin: "https://www.linkedin.com/in/raghavendra-gs-683b73329/",
-  instagram:
-    "https://www.instagram.com/authaisolutions2024/profilecard/?igsh=a2U1cW9oaWlzNXFl",
-  twitter: "https://x.com/authaisolutions",
+    "Unit 101, Oxford Towers, 139, HAL Old Airport Road Kodihalli, Bangalore , KA, India- 560008",
+  email: "example@gmail.com",
+  linkedin: "",
+  instagram: "",
+  twitter: "",
 };
 
 export const routes = [
@@ -38,6 +46,11 @@ export const routes = [
     path: "/contact-us",
     name: "Contact Us",
     element: <ContactUs />,
+  },
+  {
+    // path: "/contact-us",
+    name: "Blog",
+    // element: <ContactUs />,
   },
 ];
 
@@ -162,6 +175,7 @@ export const testimonials = [
 export const allServices = [
   {
     id: "1",
+    img: web,
     title: "Web Development (Full Stack):",
     description:
       "Crafting seamless and scalable websites and web applications tailored to your business needs, ensuring a dynamic online presence.",
@@ -170,6 +184,7 @@ export const allServices = [
   },
   {
     id: "2",
+    img: app,
     title: "Mobile App Development:",
     description:
       "Building innovative mobile applications that enhance customer engagement and provide users with exceptional on-the-go experiences.",
@@ -178,6 +193,7 @@ export const allServices = [
   },
   {
     id: "3",
+    img: chat,
     title: "Chatbot Development:",
     description:
       "Creating AI-powered chatbots to automate interactions, enhance customer support, and deliver personalized assistance 24/7.",
@@ -186,6 +202,7 @@ export const allServices = [
   },
   {
     id: "4",
+    img: game,
     title: "Game Development:",
     description:
       "Designing interactive and engaging games across platforms, blending creativity and technology to captivate audiences.",
@@ -194,6 +211,7 @@ export const allServices = [
   },
   {
     id: "5",
+    img: vrar,
     title: "Virtual Reality (VR) and Augmented Reality (AR):",
     description:
       "Developing immersive experiences that merge virtual and real-world elements, revolutionizing industries like gaming, education, and retail.",
@@ -202,6 +220,7 @@ export const allServices = [
   },
   {
     id: "6",
+    img: mvp,
     title: "MVP Development:",
     description:
       "Turning ideas into impactful products quickly with scalable Minimum Viable Products tailored to market needs.",
@@ -210,6 +229,7 @@ export const allServices = [
   },
   {
     id: "7",
+    img: ai,
     title: "Artificial Intelligence Development:",
     description:
       "Building intelligent systems that automate processes, personalize experiences, and enable smarter decision-making.",
@@ -218,6 +238,7 @@ export const allServices = [
   },
   {
     id: "8",
+    img: data,
     title: "Data Analytics and Business Intelligence:",
     description:
       "Transforming raw data into actionable insights, empowering businesses to make informed, data-driven decisions.",

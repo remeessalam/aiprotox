@@ -113,7 +113,7 @@ const WebsiteFooter = () => {
                   <span className="text-sm">{companyDetails.phone}</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   aria-label="Contact us on Phone"
                   to={`tel:${companyDetails.phone2}`}
@@ -126,7 +126,7 @@ const WebsiteFooter = () => {
                   />{" "}
                   <span className="text-sm">{companyDetails.phone2}</span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

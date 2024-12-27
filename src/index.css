@@ -20,7 +20,7 @@ html {
 
 .text-stroke {
   color: transparent;
-  -webkit-text-stroke: 1px #22aad2;
+  -webkit-text-stroke: 1px #dfff00;
 }
 
 ::-webkit-scrollbar {
@@ -29,7 +29,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #22aad2;
+  background-color: #dfff00;
   border-radius: 8px;
 }
 

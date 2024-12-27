@@ -58,13 +58,19 @@ const WhyChooseUs = () => {
           style={{ backgroundImage: `url(${bannerImg})` }}
         >
           <div className="absolute top-0 w-full h-full bg-black/50"></div>
-          <div className="py-[3rem] px-5 bg-primary/70 rounded-xl text-white relative z-10">
+          <div className="py-[3rem] px-5 bg-black/70 rounded-xl text-white relative z-10">
             <h1
               data-aos="fade-up"
               className="heading-2 max-w-[60rem] mx-auto text-center"
             >
               Why Choose Us?
             </h1>
+            <p className="desc text-center max-w-[50rem] mx-auto">
+              We specialize in transforming ambitious ideas into groundbreaking
+              digital solutions. With a blend of creativity, technology, and
+              strategy, we partner with businesses to deliver results that truly
+              matter.
+            </p>
             <div
               data-aos="fade-up"
               className="grid sm:grid-cols-2 md:grid-cols-4 gap-5 mt-10"

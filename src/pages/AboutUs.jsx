@@ -79,18 +79,21 @@ const AboutUs = () => {
         <div data-aos="fade-up" className="mt-[2rem]">
           <h2 className="text-xl font-medium">Where AI Meets Integrity</h2>
           <p className="desc mt-2">
-            Our innovative solutions are designed not just to meet the demands
-            of today but to anticipate the challenges of tomorrow, ensuring that
-            your business stays ahead of the curve. What drives us is our
-            steadfast adherence to ethical principles and integrity. We believe
-            that true innovation is grounded in responsibility, fostering trust
-            and long-term partnerships with our clients. Together, let’s unlock
-            the potential of AI and transform your vision into reality!
+            At AIPROTOX Labs, our innovative solutions are crafted not only to
+            meet the demands of today but also to anticipate the challenges of
+            tomorrow, ensuring your business stays ahead of the curve. What
+            drives us is our steadfast commitment to ethical principles and
+            integrity.
+            <br /> <br />
+            We believe that true innovation is rooted in responsibility,
+            fostering trust and building long-term partnerships with our
+            clients. Together with AIPROTOX Labs, let’s unlock the
+            transformative potential of AI and turn your vision into reality!
           </p>
         </div>
         <div className="mt-[3rem]">
           <h2 data-aos="fade-up" className="heading-2 text-center">
-            Our Visionary Goals
+            Our Visionary And Mission
           </h2>
           <div className="flex flex-col-reverse md:grid grid-cols-2 gap-10 mt-7">
             <div
@@ -98,19 +101,16 @@ const AboutUs = () => {
               className="flex h-full items-center md:items-start flex-col gap-7"
             >
               <p className="desc">
-                At <b>AIPROTOX</b>, we don’t just build AI; we craft intelligent
-                ecosystems that evolve and thrive alongside your business.
+                At <b>AIPROTOX labs</b> , our mission is to deliver cutting-edge
+                digital solutions that empower businesses to lead in the
+                ever-evolving tech landscape. From full-stack web development to
+                MVP creation and AI-driven insights, we design and implement
+                strategies that define success.
                 <br />
                 <br />
-                Situated in the heart of Bengaluru's vibrant innovation hub, our
-                dedicated team of tech-savvy engineers, data scientists, and AI
-                visionaries is driven by a singular mission: to redefine what’s
-                possible with artificial intelligence.
-                <br />
-                <br />
-                Our diverse expertise spans multiple industries, empowering
-                businesses of all sizes to harness the transformative power of
-                AI and unlock invaluable data-driven insights.
+                To be the global partner of choice for innovative businesses,
+                bridging the gap between complex challenges and smart, scalable
+                solutions.
               </p>
             </div>
             <div data-aos="fade-up" className="h-full">
@@ -139,16 +139,24 @@ const AboutUs = () => {
             data-aos="fade-up"
             className="flex items-center lg:items-start flex-col gap-7"
           >
-            <p className="desc">
-              Our mission is to empower innovation through ethical AI, ensuring
-              that every technological advancement is firmly rooted in integrity
-              and responsibility. We recognize that innovation is not merely
-              about cutting-edge technology; it must also align with ethical
-              principles that enhance trust and accountability. As such, we are
-              dedicated to catalyzing transformative change across various
-              industries, leveraging the immense power of artificial
-              intelligence to tackle unique challenges and unlock new
-              opportunities for growth and efficiency.
+            <p className="desc !text-black">
+              At <b>AIPROTOX Labs</b>, our mission is to deliver cutting-edge
+              digital solutions that empower businesses to lead in the
+              ever-evolving tech landscape. We recognize that true innovation is
+              not just about advanced technology but also about ensuring every
+              solution is rooted in integrity and responsibility.
+              <br /> <br />
+              From full-stack web development to MVP creation and AI-driven
+              insights, we are committed to designing and implementing
+              strategies that define success while upholding ethical principles.
+              By leveraging the immense power of artificial intelligence, we
+              catalyze transformative change across industries, tackling unique
+              challenges and unlocking new opportunities for growth and
+              efficiency.
+              <br /> <br /> At <b>AIPROTOX Labs</b>, innovation is our driving
+              force, and responsibility is our foundation. Together, we empower
+              businesses to thrive with solutions that inspire trust and deliver
+              measurable impact.
             </p>
           </div>
         </div>

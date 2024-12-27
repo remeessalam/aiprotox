@@ -7,6 +7,7 @@ module.exports = {
         primary: "#DFFF00",
         secondary: "#001F3F",
         tertiary: "#D3D3D3",
+        header: "#0f1731",
       },
       boxShadow: {
         large: "0px 0px 30px 10px rgba(0, 0, 0, 0.5)",

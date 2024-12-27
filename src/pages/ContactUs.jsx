@@ -16,7 +16,7 @@ const ContactUs = () => {
       <PageBanner title="Contact Us" />
       <div className="py-[3rem]">
         <div className="wrapper">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
             <div
               data-aos="fade-up"
               className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
@@ -26,7 +26,7 @@ const ContactUs = () => {
                 size={40}
                 className="text-primary inline min-w-5"
               />
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black ">
                 {companyDetails.address}
               </span>
             </div>
@@ -36,7 +36,7 @@ const ContactUs = () => {
               className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
             >
               <Mail strokeWidth={2} size={40} className="text-primary inline" />
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 {companyDetails.email}
               </span>
             </Link>
@@ -50,11 +50,11 @@ const ContactUs = () => {
                 size={40}
                 className="text-primary inline"
               />
-              <span className="text-center font-medium">
+              <span className="text-center font-medium text-black">
                 {companyDetails.phone}
               </span>
             </Link>
-            <Link
+            {/* <Link
               to={`tel:${companyDetails.phone2}`}
               data-aos="fade-up"
               className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
@@ -67,7 +67,7 @@ const ContactUs = () => {
               <span className="text-center font-medium">
                 {companyDetails.phone2}
               </span>
-            </Link>
+            </Link> */}
           </div>
           <LeadForm />
         </div>

@@ -33,7 +33,7 @@ const LandingHeader = () => {
   };
 
   return (
-    <div className="py-4 fixed top-0 w-full bg-secondary/60 backdrop-blur-md z-50 text-white">
+    <div className="py-4 fixed top-0 w-full bg-header backdrop-blur-md z-50 text-white">
       <div className="wrapper flex justify-between items-center gap-10">
         <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
           <Helmet>
@@ -58,18 +58,26 @@ const LandingHeader = () => {
             {options
               .filter((option) => option.path !== "contact")
               .map((option) => (
-                <Link
-                  to={`${option.path}`}
-                  className="link text-sm"
-                  key={option.path}
-                  spy={true}
-                  smooth={true}
-                  offset={-60}
-                  duration={1000}
-                  activeClass="active-link"
-                >
-                  {option.name}
-                </Link>
+                <>
+                  {option.name === "Home" ? (
+                    <a href="/" className="link text-sm">
+                      {option.name}
+                    </a>
+                  ) : (
+                    <Link
+                      to={`${option.path}`}
+                      className="link text-sm"
+                      key={option.path}
+                      spy={true}
+                      smooth={true}
+                      offset={-60}
+                      duration={1000}
+                      activeClass="active-link"
+                    >
+                      {option.name}
+                    </Link>
+                  )}
+                </>
               ))}
             <Link
               to="contact"
@@ -99,18 +107,26 @@ const LandingHeader = () => {
           </div>
           <div className="flex flex-col gap-6">
             {options.map(({ name, path, id }) => (
-              <Link
-                onClick={() => setIsOpen(false)}
-                key={id}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                {name}
-              </Link>
+              <>
+                {name === "Home" ? (
+                  <a href="/" className="link text-sm">
+                    {name}
+                  </a>
+                ) : (
+                  <Link
+                    to={`${path}`}
+                    className="link text-sm"
+                    key={path}
+                    spy={true}
+                    smooth={true}
+                    offset={-60}
+                    duration={1000}
+                    activeClass="active-link"
+                  >
+                    {name}
+                  </Link>
+                )}
+              </>
             ))}
           </div>
         </Drawer>

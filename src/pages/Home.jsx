@@ -33,7 +33,7 @@ const Home = () => {
     <>
       <WebsiteHeader />
       <section className="h-screen relative text-white">
-        <div className="absolute top-0 w-full h-full bg-secondary/90"></div>
+        <div className="absolute top-0 w-full h-full bg-black/90"></div>
         <img
           loading="lazy"
           src={bannerImg}

@@ -30,14 +30,16 @@ const AllServices = () => {
             <div className="flex flex-col items-center">
               <img
                 loading="lazy"
-                src={service.icon}
-                width="75"
-                height="75"
-                className="h-[3.5rem] md:h-[4rem] object-contain"
+                src={service.img}
+                // width="75"
+                // height="75"
+                className="h-[10.5rem] md:h-[14rem] max-h-[15rem] object-contain"
                 alt=""
               />
-              <h6 className="text-xl font-medium mt-2">{service.title}</h6>
-              <p className="desc mt-2">{service.description}</p>
+              <h6 className="text-xl font-medium mt-2 text-black">
+                {service.title}
+              </h6>
+              <p className="desc mt-2 !text-black">{service.description}</p>
             </div>
             <button
               onClick={() => handleSelectServiceToShowDetail(service)}

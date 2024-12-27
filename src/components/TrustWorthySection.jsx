@@ -49,7 +49,7 @@ const TrustWorthySection = React.memo(() => {
     }
   }, [inView]);
   return (
-    <div className="pt-[3rem]">
+    <div className="pt-[59rem] sm:pt-[25rem] md:pt-[20rem] lg:pt-[12rem]">
       <div
         ref={ref}
         className="w-full grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 lg:gap-5 bg-gradient-to-b from-primary to-primary/60 p-[2rem]"

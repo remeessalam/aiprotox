@@ -36,7 +36,7 @@ const LandingPage = ({ page }) => {
     <>
       <LandingHeader />
       <section id="banner" className="h-screen relative text-white">
-        <div className="absolute top-0 w-full h-full bg-secondary/90"></div>
+        <div className="absolute top-0 w-full h-full bg-black/90"></div>
         <img
           loading="lazy"
           src={bannerImg}
@@ -56,8 +56,8 @@ const LandingPage = ({ page }) => {
           </p>
           <h1 className="heading-1 text-stroke">
             {isWebLanding
-              ? "Crafting High-Performance Websites that Drive Results"
-              : "Innovation-Driven App Development Services"}
+              ? "Powering Tomorrow’s Technology, Today"
+              : "Innovative Digital Solutions for a Smarter Future."}
           </h1>
           <p className="sub-heading">
             AI Meets Integrity - Empowering Innovation with Intelligence
@@ -143,8 +143,10 @@ const LandingPage = ({ page }) => {
                 width="100"
                 height="100"
               />
-              <h6 className="text-xl font-medium mt-2">{service.title}</h6>
-              <p className="desc mt-2">{service.description}</p>
+              <h6 className="text-xl font-medium mt-2 text-black">
+                {service.title}
+              </h6>
+              <p className="desc mt-2 !text-black">{service.description}</p>
             </div>
           ))}
         </div>

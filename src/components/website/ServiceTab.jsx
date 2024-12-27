@@ -62,8 +62,13 @@ export default function ServiceTabs() {
             <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-8">
               <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2 mb-4">
                 {service.title}
-                <ArrowUpRight className="w-6 h-6 text-blue-600" />
+                {/* <ArrowUpRight className="w-6 h-6 text-blue-600" /> */}
               </h2>
+              <img
+                src={service.img}
+                alt=""
+                className="aspect-square w-[300px] object-cover h-[300px]"
+              />
               <p className="text-gray-600 mb-6">{service.description}</p>
               <div className="prose max-w-none text-gray-700">
                 {service.detailContent}
