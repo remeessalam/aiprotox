@@ -46,7 +46,7 @@ export default function ServiceTabs() {
       </div>
 
       {/* Content Area */}
-      <div className="relative min-h-[400px]">
+      <div className="relative lg:min-h-[600px] md:min-h-[650px] sm:min-h-[700px] min-h-[1180px]">
         {allServices.map((service) => (
           <div
             key={service.id}
