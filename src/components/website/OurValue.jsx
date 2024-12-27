@@ -9,11 +9,11 @@ const OurValue = () => {
       <div className="wrapper grid md:grid-cols-2 items-center gap-7">
         <div className="flex flex-col items-start gap-5">
           <SubHeading heading="Our Values" />
-          <h2 data-aos="fade-up" className="heading-2 mx-0">
+          <h2 data-aos="fade-up" className="heading-2 mx-0 text-black">
             Integrity at Our Core,
             <br /> Innovation in Our Spirit
           </h2>
-          <p data-aos="fade-up" className="desc">
+          <p data-aos="fade-up" className="desc !text-black">
             Our diverse expertise spans multiple industries, empowering
             businesses of all sizes to harness the transformative power of AI
             and unlock invaluable data-driven insights.
@@ -28,8 +28,10 @@ const OurValue = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <h6 className="text-lg font-medium">Innovation and Excellence</h6>
-              <p className="desc">
+              <h6 className="text-lg font-medium text-black">
+                Innovation and Excellence
+              </h6>
+              <p className="desc !text-black">
                 Leading the future with cutting-edge solutions.
               </p>
             </div>
@@ -44,10 +46,10 @@ const OurValue = () => {
               />
             </div>
             <div className="flex flex-col gap-1">
-              <h6 className="text-lg font-medium">
+              <h6 className="text-lg font-medium text-black">
                 Integrity and Transparency
               </h6>
-              <p className="desc">
+              <p className="desc !text-black">
                 Building trust, fostering relationships, and ensuring
                 accountability.
               </p>

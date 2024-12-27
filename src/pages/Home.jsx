@@ -6,6 +6,7 @@ import bannerImg from "../assets/images/banner.webp";
 import aboutImg from "../assets/images/aboutus-img3.webp";
 import { Link } from "react-router-dom";
 import SubHeading from "../components/SubHeading";
+import ServiceTabs from "../components/website/ServiceTab";
 const WebsiteHeader = React.lazy(() =>
   import("../components/website/WebsiteHeader")
 );
@@ -102,7 +103,7 @@ const Home = () => {
             Consulting, Aligning IT and Growth
           </p>
         </div>
-        <div className="bg-tertiary rounded-lg p-5">
+        <div className="bg-secondary rounded-lg p-5">
           <div className="flex gap-3 mb-4">
             <img
               loading="lazy"
@@ -153,21 +154,29 @@ const Home = () => {
                 />
               </div>
               <h2 className="heading-2 max-w-[60rem] mx-auto">
-                Transforming Visions into Reality
+                Transforming Visions into Reality with Advanced Tech.
               </h2>
               <p className="desc">
-                At <b>AIPROTOX</b>, we leverage the transformative power of
-                artificial intelligence to catalyze remarkable change across
-                industries. Our unwavering commitment to transparency and
-                reliability is what truly sets us apart in a crowded market
-                place .We empower organizations with cutting-edge AI
-                technologies that elevate data-driven insights, streamline
-                complex processes, and ignite strategic growth.
+                AtAIPROTOX, we transform bold ideas into powerful digital
+                solutions that drive remarkable change across industries.
+                Leveraging the potential of cutting-edge technologies such as
+                artificial intelligence, we empower businesses to unlock new
+                opportunities, streamline complex processes, and achieve
+                strategic growth.
                 <br />
                 <br />
-                Our innovative solutions are designed not just to meet the
-                demands of today but to anticipate the challenges of tomorrow,
-                ensuring that your business stays ahead of the curve.
+                What sets us apart is our unwavering commitment to transparency,
+                reliability, and customer-centricity in everything we do. From
+                data-driven insights to innovative product development, we
+                partner with organizations to tackle today’s challenges while
+                preparing for tomorrow’s opportunities.
+                <br />
+                <br />
+                Our solutions are meticulously designed not just to meet current
+                demands but to anticipate the ever-changing landscape of
+                technology, ensuring your business remains ahead of the curve.
+                At AIPROTOX, we don’t just create solutions; we shape the
+                future.
               </p>
             </div>
             <div className="w-fit mt-4 justify-center lg:justify-start">
@@ -178,8 +187,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <AllServices />
+      <ServiceTabs />
+      {/* <AllServices /> */}
       <TrustWorthySection />
       <OurValue />
       <Portfolio />

@@ -9,7 +9,7 @@ import img5 from "../assets/images/client-logos/5.png";
 import img6 from "../assets/images/client-logos/6.png";
 import img7 from "../assets/images/client-logos/7.png";
 
-const animation = { duration: 10000, easing: (t) => t };
+const animation = { duration: 35000, easing: (t) => t };
 
 const JoinHappyCustomers = () => {
   const [sliderRef] = useKeenSlider({
@@ -52,14 +52,15 @@ const JoinHappyCustomers = () => {
   });
   return (
     <div
-      className="py-[5rem] bg-center bg-cover relative text-white"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      className="py-[5rem] bg-center bg-cover relative text-white max-w-[95%] mx-auto rounded-xl"
+      // style={{ backgroundImage: `url(${bgImg})` }}
     >
-      <div className="absolute top-0 w-full h-full bg-tertiary/95"></div>
-      <div className="relative z-10">
-        <div data-aos="fade-up" className="wrapper">
-          <h2 className="heading-2 max-w-[60rem] mx-auto text-center">
-            Join Our <span className="text-primary">100+</span> Happy Clients
+      <div className="absolute top-0 w-full h-full bg-secondary rounded-xl"></div>
+      <div className="relative z-10 rounded-xl">
+        <div data-aos="fade-up" className="wrapper ">
+          <h2 className="sub-heading max-w-[60rem] mx-auto text-center">
+            {/* Join Our <span className="text-primary">100+</span> Happy Clients */}
+            Trusted BY 100+ Happy Clients
           </h2>
         </div>
         <div data-aos="fade-up" ref={sliderRef} className="keen-slider mt-9">

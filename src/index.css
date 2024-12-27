@@ -10,7 +10,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-color: #060f1a;
+  background-color: #000000;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -18,9 +18,9 @@ html {
   overflow-x: hidden;
 }
 
-.text-stroke{
+.text-stroke {
   color: transparent;
-  -webkit-text-stroke: 1px #22AAD2;
+  -webkit-text-stroke: 1px #22aad2;
 }
 
 ::-webkit-scrollbar {
@@ -56,7 +56,7 @@ html {
     @apply text-primary font-medium;
   }
   .primary-btn {
-    @apply text-white font-medium cursor-pointer tracking-wide bg-gradient-to-b from-[#179CC4] to-[#0f4a5d] text-sm hover:shadow-primary/30 hover:-translate-y-1 shadow-large shadow-transparent rounded-full px-4 py-3 min-w-[8rem] flex justify-center text-center transition-all duration-300;
+    @apply text-white font-medium cursor-pointer tracking-wide bg-gradient-to-b from-secondary to-[#0f4a5d] text-sm hover:shadow-primary/30 hover:-translate-y-1 shadow-large shadow-transparent rounded-full px-4 py-3 min-w-[8rem] flex justify-center text-center transition-all duration-300;
   }
   .secondary-btn {
     @apply text-white font-medium cursor-pointer tracking-wide bg-gradient-to-b from-secondary to-[#0f5266] text-sm hover:shadow-secondary hover:-translate-y-1 shadow-large shadow-transparent rounded-full px-4 py-3 min-w-[8rem] flex justify-center text-center transition-all duration-300;
@@ -66,6 +66,15 @@ html {
   }
   .section-heading {
     @apply font-medium text-lg text-primary;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 }
 

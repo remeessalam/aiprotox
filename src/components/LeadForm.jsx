@@ -79,7 +79,7 @@ const LeadForm = () => {
       >
         <div className="grid sm:grid-cols-2 gap-5">
           <div className="flex flex-col gap-1">
-            <label className="text-sm ml-2">Name</label>
+            <label className="text-sm ml-2 text-black">Name</label>
             <input
               type="text"
               className="outline-none p-2 rounded-full bg-white/60 text-secondary"
@@ -98,7 +98,7 @@ const LeadForm = () => {
             <small className="error-message">{errors.name?.message}</small>
           </div>
           <div className="flex flex-col gap-1">
-            <label className="text-sm ml-2">Email</label>
+            <label className="text-sm ml-2 text-black">Email</label>
             <input
               type="email"
               className="outline-none p-2 rounded-full bg-white/60 text-secondary"
@@ -116,7 +116,7 @@ const LeadForm = () => {
         </div>
         <div className="grid sm:grid-cols-2 gap-5">
           <div className="flex flex-col gap-1">
-            <label className="text-sm ml-2">Phone</label>
+            <label className="text-sm ml-2 text-black">Phone</label>
             <input
               type="tel"
               className="outline-none p-2 rounded-full bg-white/60 text-secondary"
@@ -132,7 +132,7 @@ const LeadForm = () => {
             <small className="error-message">{errors.phone?.message}</small>
           </div>
           <div className="flex flex-col gap-1">
-            <label className="text-sm ml-2">Subject</label>
+            <label className="text-sm ml-2 text-black">Subject</label>
             <input
               type="text"
               className="outline-none p-2 rounded-full bg-white/60 text-secondary"
@@ -152,7 +152,7 @@ const LeadForm = () => {
           </div>
         </div>
         <div className="flex flex-col gap-1">
-          <label className="text-sm ml-2">Message</label>
+          <label className="text-sm ml-2 text-black">Message</label>
           <textarea
             rows="4"
             className="outline-none p-2 rounded-2xl bg-white/60 text-secondary"

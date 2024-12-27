@@ -89,9 +89,9 @@ const Testimonials = () => {
             {testimonials.map((item) => (
               <div
                 key={item.id}
-                className="keen-slider__slide text-center justify-between text-white p-5 bg-tertiary rounded-xl flex flex-col gap-4"
+                className="keen-slider__slide text-center justify-between text-black p-5 bg-tertiary rounded-xl flex flex-col gap-4"
               >
-                <p className="italic desc">{item.desc}</p>
+                <p className="italic desc !text-black">{item.desc}</p>
                 <div className="flex flex-col gap-2 mt-2">
                   <div className="flex flex-col items-center gap-1 h-full">
                     <img
