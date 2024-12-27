@@ -78,7 +78,7 @@ const Testimonials = () => {
         <div className="flex items-center gap-4 w-full">
           <div data-aos="fade-up">
             <button
-              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-primary hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
+              className="text-black w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-primary/70 hover:bg-tertiary text-5xl transition-all duration-300 "
               onClick={handlePrevClick}
               aria-label="Previous slide"
             >
@@ -109,7 +109,7 @@ const Testimonials = () => {
           </div>
           <div data-aos="fade-up">
             <button
-              className="text-white w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-primary hover:bg-tertiary text-5xl transition-all duration-300 border-2 border-primary"
+              className="text-black w-[2.5rem] h-[2.5rem] hidden md:flex items-center justify-center rounded-full p-2 bg-primary/70 hover:bg-tertiary text-5xl transition-all duration-300"
               onClick={handleNextClick}
               aria-label="Next slide"
             >
@@ -119,14 +119,14 @@ const Testimonials = () => {
         </div>
         <div data-aos="fade-up" className="flex items-center gap-5">
           <button
-            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary text-5xl transition-all duration-300 border-2 border-primary"
+            className="text-black w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary/70 text-5xl transition-all duration-300 "
             onClick={handlePrevClick}
             aria-label="Previous slide"
           >
             <ArrowLeft size={32} />
           </button>
           <button
-            className="text-white w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary text-5xl transition-all duration-300 border-2 border-primary"
+            className="text-black w-[2.5rem] h-[2.5rem] md:hidden flex items-center justify-center rounded-full p-2 bg-primary/70 text-5xl transition-all duration-300 "
             onClick={handleNextClick}
             aria-label="Next slide"
           >

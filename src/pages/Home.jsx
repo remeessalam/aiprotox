@@ -103,7 +103,7 @@ const Home = () => {
             Consulting, Aligning IT and Growth
           </p>
         </div>
-        <div className="bg-secondary rounded-lg p-5">
+        <div className="bg-[#0A1828] rounded-lg p-5">
           <div className="flex gap-3 mb-4">
             <img
               loading="lazy"

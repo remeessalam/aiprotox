@@ -90,7 +90,7 @@ const LandingFooter = () => {
                 <span className="text-sm">{companyDetails.phone}</span>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 aria-label="Contact us on phone"
                 to={`tel:${companyDetails.phone2}`}
@@ -103,7 +103,7 @@ const LandingFooter = () => {
                 />{" "}
                 <span className="text-sm">{companyDetails.phone2}</span>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

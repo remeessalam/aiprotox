@@ -75,7 +75,7 @@ const ContactUs = () => {
       <div className="mt-[3rem] relative">
         <div
           data-aos="fade-up"
-          className="p-7 flex gap-2 bg-white absolute rounded-b-xl right-1/2 translate-x-1/2 sm:right-[2rem] sm:translate-x-0 top-0 z-10 text-black min-w-[22rem] max-w-[22rem]"
+          className="p-2 sm:p-7 flex gap-2 bg-white absolute rounded-b-xl right-0 translate-x-1/2 sm:right-[2rem] sm:translate-x-0 top-0 z-10 text-black sm:min-w-[22rem] min-w-[19rem] sm:max-w-[22rem] max-w-[19rem]"
         >
           <MapPin strokeWidth={1.5} size={20} className="inline min-w-5 mt-1" />{" "}
           <span className="text-sm">{companyDetails.address}</span>

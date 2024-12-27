@@ -16,7 +16,7 @@ const ConnectWithUs = () => {
           style={{ backgroundImage: `url(${bannerImg})` }}
         >
           <div className="absolute top-0 w-full h-full bg-secondary/50"></div>
-          <div className="py-[3rem] px-5 bg-primary/70 rounded-xl text-white relative z-10">
+          <div className="py-[3rem] px-5 bg-black/70 rounded-xl text-white relative z-10">
             <h1 className="heading-2 max-w-[60rem] mx-auto text-center">
               Let's Build Something Amazing Together! Connect with Us Today!
             </h1>
