@@ -14,24 +14,24 @@ import {
 const ThankYou = () => {
   return (
     <>
-      <div className="h-[calc(100vh-18rem)] flex flex-col items-center justify-center">
-        <div className="py-4 sticky top-0 w-full bg-secondary/60 backdrop-blur-md z-50 text-white">
+      <div className="h-[calc(100vh-18rem)] flex flex-col items-center justify-center bg-tertiary">
+        <div className="py-4 sticky top-0 w-full bg-header/60 backdrop-blur-md z-50 text-white">
           <div className="wrapper flex justify-between items-center gap-10">
             <div className="flex justify-between items-center gap-20 w-full pl-[1rem] lg:pl-0">
               <Link smooth={true} to="/" className="cursor-pointer">
                 <img
                   loading="lazy"
                   src={logoImg}
-                  width={150}
-                  height={150}
-                  className="h-[3rem] md:h-[3.75rem] scale-125"
+                  // width={150}
+                  // height={150}
+                  className="h-[3rem] md:h-[3.75rem] "
                   alt="logo"
                 />
               </Link>
             </div>
           </div>
         </div>
-        <div className="wrapper flex flex-col items-center justify-center h-full">
+        <div className="wrapper flex flex-col items-center justify-center h-full ">
           <h1 className="heading-1">Thank You</h1>
           <p className="text-center text-gray-200 text-sm md:text-base text-balance">
             Thanks for contacting us, one of our associates will get in touch
@@ -136,7 +136,7 @@ const ThankYou = () => {
                     <span className="text-sm">{companyDetails.phone}</span>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to={`tel:${companyDetails.phone2}`}
                     className="flex gap-3 text-white/70 hover:text-primary transition-colors duration-200"
@@ -148,7 +148,7 @@ const ThankYou = () => {
                     />{" "}
                     <span className="text-sm">{companyDetails.phone2}</span>
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
