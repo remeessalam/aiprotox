@@ -122,6 +122,7 @@ const LandingHeader = () => {
                     offset={-60}
                     duration={1000}
                     activeClass="active-link"
+                    onClick={toggleDrawer}
                   >
                     {name}
                   </Link>
