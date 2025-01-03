@@ -293,7 +293,7 @@ const MVPLandingPage = () => {
         </section>
 
         {/* Call to Action */}
-        <section className="bg-blue-600 text-white py-16 px-4 text-center">
+        <section className="bg-secondary text-white py-16 px-4 text-center">
           <h2
             data-aos="fade-up"
             className="text-3xl md:text-4xl font-bold mb-4"
@@ -306,7 +306,7 @@ const MVPLandingPage = () => {
           </p>
           <button
             data-aos="fade-up"
-            className="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300"
+            className="bg-white text-secondary font-bold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300"
           >
             <Link
               to={`contact`}
