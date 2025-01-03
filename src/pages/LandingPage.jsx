@@ -133,7 +133,7 @@ const LandingPage = ({ page }) => {
           {services.map((service) => (
             <div
               data-aos="fade-up"
-              className="bg-tertiary items-center rounded-lg p-5 flex text-center flex-col"
+              className="bg-secondary items-center rounded-lg p-5 flex text-center flex-col"
             >
               <img
                 loading="lazy"
@@ -143,10 +143,10 @@ const LandingPage = ({ page }) => {
                 width="100"
                 height="100"
               />
-              <h6 className="text-xl font-medium mt-2 text-black">
+              <h6 className="text-xl font-medium mt-2 text-white">
                 {service.title}
               </h6>
-              <p className="desc mt-2 !text-black">{service.description}</p>
+              <p className="desc mt-2 !text-white">{service.description}</p>
             </div>
           ))}
         </div>

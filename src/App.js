@@ -15,6 +15,8 @@ import { LoadingSpinner } from "./components/LoadingSpinner";
 import ScrollToTop from "./components/ScrollToTop";
 import WhatsAppIcon from "./components/WhatsAppIcon";
 import { Toaster } from "react-hot-toast";
+import MVPLandingPage from "./pages/MVPLandingPage";
+import ChatBotLandingPage from "./pages/ChatBotLandingPage";
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 
@@ -59,6 +61,11 @@ function App() {
             <Route
               path="/app-development"
               element={<LandingPage page={"app-development"} />}
+            />
+            <Route path="/mvp-development" element={<MVPLandingPage />} />
+            <Route
+              path="/chatbot-development"
+              element={<ChatBotLandingPage />}
             />
           </Routes>
         </Router>

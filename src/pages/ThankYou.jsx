@@ -32,8 +32,8 @@ const ThankYou = () => {
           </div>
         </div>
         <div className="wrapper flex flex-col items-center justify-center h-full ">
-          <h1 className="heading-1">Thank You</h1>
-          <p className="text-center text-gray-200 text-sm md:text-base text-balance">
+          <h1 className="heading-1 text-secondary">Thank You</h1>
+          <p className="text-center text-secondary text-sm md:text-base text-balance">
             Thanks for contacting us, one of our associates will get in touch
             with you soon!
           </p>

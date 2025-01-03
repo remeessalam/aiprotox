@@ -19,38 +19,38 @@ const ContactUs = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
             <div
               data-aos="fade-up"
-              className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
+              className="bg-secondary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
             >
               <MapPin
                 strokeWidth={2}
                 size={40}
                 className="text-primary inline min-w-5"
               />
-              <span className="text-center font-medium text-black ">
+              <span className="text-center font-medium text-white ">
                 {companyDetails.address}
               </span>
             </div>
             <Link
               to={`mailto:${companyDetails.email}`}
               data-aos="fade-up"
-              className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
+              className="bg-secondary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
             >
               <Mail strokeWidth={2} size={40} className="text-primary inline" />
-              <span className="text-center font-medium text-black">
+              <span className="text-center font-medium text-white">
                 {companyDetails.email}
               </span>
             </Link>
             <Link
               to={`tel:${companyDetails.phone}`}
               data-aos="fade-up"
-              className="bg-tertiary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
+              className="bg-secondary flex flex-col gap-3 items-center justify-center rounded-xl p-5"
             >
               <Phone
                 strokeWidth={2}
                 size={40}
                 className="text-primary inline"
               />
-              <span className="text-center font-medium text-black">
+              <span className="text-center font-medium text-white">
                 {companyDetails.phone}
               </span>
             </Link>

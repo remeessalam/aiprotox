@@ -94,13 +94,11 @@ const Home = () => {
               className="w-[3rem] object-contain"
               alt=""
             />
-            <p className="text-lg leading-tight font-medium">
-              IT Consulting & Strategy
-            </p>
+            <p className="text-lg leading-tight font-medium">MVP Development</p>
           </div>
           <p className="desc">
-            Connect IT and Business for Unparalleled Success with Our Expert
-            Consulting, Aligning IT and Growth
+            Turning ideas into impactful products quickly with scalable Minimum
+            Viable Products tailored to market needs.
           </p>
         </div>
         <div className="bg-[#0A1828] rounded-lg p-5">
