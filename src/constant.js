@@ -12,6 +12,27 @@ import vrar from "./assets/images/services/vrar.png";
 import mvp from "./assets/images/services/mvp.png";
 import ai from "./assets/images/services/ai.png";
 import data from "./assets/images/services/data.png";
+import aicalling from "./assets/images/services/aicalling.png";
+import {
+  FaCogs,
+  FaClock,
+  FaUserFriends,
+  FaAward,
+  FaProjectDiagram,
+  FaHeadset,
+  FaShieldAlt,
+  FaLightbulb,
+} from "react-icons/fa";
+
+import {
+  FaChartLine,
+  FaCalendarAlt,
+  FaComments,
+  FaCreditCard,
+  FaBell,
+  FaBox,
+  FaChartBar,
+} from "react-icons/fa";
 
 export { logoImg };
 
@@ -118,33 +139,78 @@ export const appDevelopmentServices = [
   },
 ];
 
-// portfolio
-// export const portfolio = [
-//   {
-//     id: 1,
-//     title: "Figo Tech",
-//     img: require("./assets/images/portfolio/1.jpeg"),
-//     imgFit: "object-cover",
-//   },
-//   {
-//     id: 2,
-//     title: "News Feed",
-//     img: require("./assets/images/portfolio/2.jpeg"),
-//     imgFit: "object-cover",
-//   },
-//   {
-//     id: 3,
-//     title: "Food Application",
-//     img: require("./assets/images/portfolio/3.png"),
-//     imgFit: "object-contain",
-//   },
-//   {
-//     id: 4,
-//     title: "Crio Load App",
-//     img: require("./assets/images/portfolio/4.jpg"),
-//     imgFit: "object-cover",
-//   },
-// ];
+export const aiCallingAgentServices = [
+  {
+    id: 1,
+    title: "24/7 Customer Support",
+    icon: <FaHeadset className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Provide round-the-clock customer support with AI-powered calling agents. Handle inquiries, resolve issues, and ensure seamless customer experiences at any time.",
+  },
+  {
+    id: 2,
+    title: "Lead Generation & Qualification",
+    icon: <FaChartLine className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Automate lead generation and qualification with intelligent AI agents. Engage prospects, ask tailored questions, and deliver high-quality leads to your sales team.",
+  },
+  {
+    id: 3,
+    title: "Appointment Scheduling",
+    icon: <FaCalendarAlt className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Simplify appointment booking with AI calling agents. Manage schedules, send reminders, and reduce no-shows for a more efficient workflow.",
+  },
+  {
+    id: 4,
+    title: "Feedback & Survey Collection",
+    icon: <FaComments className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Gather valuable customer insights with AI-driven feedback calls. Automate surveys, collect responses, and analyze data to improve your services.",
+  },
+  {
+    id: 5,
+    title: "Payment & Billing Assistance",
+    icon: <FaCreditCard className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Streamline payment processes with AI agents. Handle billing inquiries, process transactions, and send payment reminders for a smoother customer experience.",
+  },
+  {
+    id: 6,
+    title: "Outbound Calling & Notifications",
+    icon: <FaBell className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Automate outbound calls for promotions, reminders, and updates. Keep your customers informed and engaged with personalized AI-driven notifications.",
+  },
+  {
+    id: 7,
+    title: "Order Tracking & Updates",
+    icon: <FaBox className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Provide real-time order updates with AI calling agents. Keep customers informed about their orders, deliveries, and service status effortlessly.",
+  },
+  {
+    id: 8,
+    title: "Customer Retention & Engagement",
+    icon: <FaUserFriends className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Boost customer loyalty with personalized AI-driven engagement. Send tailored messages, follow-ups, and recommendations to keep customers coming back.",
+  },
+  {
+    id: 9,
+    title: "Business Analytics & Insights",
+    icon: <FaChartBar className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Gain actionable insights with AI-powered analytics. Track call performance, customer satisfaction, and trends to make data-driven business decisions.",
+  },
+  {
+    id: 10,
+    title: "Custom AI Solutions",
+    icon: <FaCogs className="text-6xl text-blue-400 mb-4" />,
+    description:
+      "Get tailor-made AI calling solutions designed for your unique business needs. Scale, adapt, and grow with flexible AI technology that evolves with you.",
+  },
+];
 
 // testimonials
 export const testimonials = [
@@ -245,6 +311,15 @@ export const allServices = [
     detailContent:
       "Data is the new currency, and harnessing its power can give businesses a significant competitive edge. Our data analytics and business intelligence services help you uncover valuable insights hidden within your data. By leveraging advanced analytics tools and techniques, we transform raw data into meaningful dashboards and reports. Our solutions empower you to identify trends, predict outcomes, and make data-driven decisions with confidence. From descriptive analytics to predictive modeling, we cover the entire spectrum of data analysis. Take control of your data and turn it into a strategic asset with our tailored analytics solutions.",
   },
+  {
+    id: "9",
+    img: aicalling,
+    title: "AI Calling Agency:",
+    description:
+      "Revolutionizing customer interactions with AI-powered calling solutions for support, sales, and engagement.",
+    detailContent:
+      "Our AI Calling Agency service leverages artificial intelligence to streamline and enhance business communication. Whether it's providing round-the-clock customer support, automating lead qualification, scheduling appointments, or collecting feedback, our AI-driven calling solutions ensure seamless, efficient interactions. With intelligent automation, businesses can optimize their customer engagement strategies, reduce operational costs, and improve response times. From outbound notifications to personalized customer retention strategies, our AI-powered calling solutions are designed to elevate your business operations. Experience the future of business communication with our cutting-edge AI Calling Agency services.",
+  },
 ];
 
 // portfolio images (web development)
@@ -307,5 +382,96 @@ export const appPortfolio = [
     id: 5,
     img: require("./assets/images/app_projects/5.webp"),
     title: "House of Deliverance",
+  },
+];
+
+// aicalling why choose us
+
+export const aicallingwhychooseus = [
+  {
+    icon: <FaCogs className="text-4xl text-blue-400" />,
+    title: "Advanced AI Technology",
+    description:
+      "We leverage cutting-edge natural language processing (NLP) and machine learning to deliver intelligent, human-like conversations.",
+  },
+  {
+    icon: <FaClock className="text-4xl text-blue-400" />,
+    title: "24/7 Availability",
+    description:
+      "Our AI calling agents are available round-the-clock, ensuring your customers always get the support they need.",
+  },
+  {
+    icon: <FaUserFriends className="text-4xl text-blue-400" />,
+    title: "Client-Centric Solutions",
+    description:
+      "We tailor our AI calling solutions to meet your unique business needs, ensuring maximum efficiency and customer satisfaction.",
+  },
+  {
+    icon: <FaAward className="text-4xl text-blue-400" />,
+    title: "Proven Results",
+    description:
+      "With a track record of success, we’ve helped businesses improve customer engagement, reduce costs, and boost revenue.",
+  },
+  {
+    icon: <FaProjectDiagram className="text-4xl text-blue-400" />,
+    title: "End-to-End Integration",
+    description:
+      "Our AI solutions seamlessly integrate with your existing systems, including CRM, databases, and communication platforms.",
+  },
+  {
+    icon: <FaHeadset className="text-4xl text-blue-400" />,
+    title: "Dedicated Support",
+    description:
+      "Our team provides ongoing support and optimization to ensure your AI calling system performs at its best.",
+  },
+  {
+    icon: <FaShieldAlt className="text-4xl text-blue-400" />,
+    title: "Secure & Reliable",
+    description:
+      "We prioritize data security and reliability, ensuring your customer interactions are always safe and uninterrupted.",
+  },
+  {
+    icon: <FaLightbulb className="text-4xl text-blue-400" />,
+    title: "Innovative Problem Solvers",
+    description:
+      "We continuously innovate to solve complex communication challenges, helping you stay ahead of the competition.",
+  },
+];
+
+export const aiCallingtestimonials = [
+  {
+    id: 1,
+    name: "John Davis",
+    position: "CEO, GreenTech Solutions",
+    img: require("./assets/images/testimonial.png"),
+    desc: '"We were facing increasing demand for customer support, and the challenge was how to maintain the quality of our service as we scaled. [Your Company Name] provided us with an AI-driven solution that handled the majority of routine queries, allowing our team to focus on more complex issues. The difference has been remarkable. Our response times are much faster, and the efficiency of our operations has dramatically improved. We’ve been able to maintain high-quality service even as our business grows. It’s been an absolute game-changer."',
+  },
+  {
+    id: 2,
+    name: "Samantha Lee",
+    position: "Marketing Director, Luxe Living",
+    img: require("./assets/images/testimonial.png"),
+    desc: '"We needed a solution to help us engage with leads and customers in a more efficient way. Partnering with [Your Company Name] to implement their AI calling system was one of the best decisions we’ve made. The AI interacts with leads in a personalized manner, qualifying them and collecting essential information, which has greatly improved the efficiency of our sales team. Not only have we seen an uptick in conversions, but the time our sales team now spends on calls is more focused and productive. It\'s been a huge win for our marketing and sales efforts."',
+  },
+  {
+    id: 3,
+    name: "Maria Gonzalez",
+    position: "Operations Manager, HealthFirst Clinic",
+    img: require("./assets/images/testimonial.png"),
+    desc: '"Appointment scheduling used to be a cumbersome task, with constant back-and-forth emails and phone calls. [Your Company Name] made the process a lot easier with their AI-powered scheduling system. Now, patients can book, reschedule, and cancel appointments at their convenience. Plus, the system automatically sends reminders, which has drastically reduced no-shows. This has saved us so much time, and our staff can now focus more on providing quality care rather than managing appointments."',
+  },
+  {
+    id: 4,
+    name: "David Hughes",
+    position: "Founder, TechSpace",
+    img: require("./assets/images/testimonial.png"),
+    desc: '"Keeping in touch with customers and ensuring they feel valued has always been a priority for us. The AI-powered follow-up system from [Your Company Name] has been essential in this regard. It automatically sends personalized messages to clients based on their preferences and past interactions, ensuring that our communications are always relevant. This has helped us strengthen our customer relationships and significantly improve retention rates."',
+  },
+  {
+    id: 5,
+    name: "Linda Chang",
+    position: "Operations Director, Elevate Consulting",
+    img: require("./assets/images/testimonial.png"),
+    desc: "\"As a growing business, we were looking for ways to scale without having to constantly hire additional staff. [Your Company Name]'s AI-powered solutions made that possible. Their system handles everything from customer inquiries to appointment scheduling and order tracking. This has allowed us to streamline our operations, save on costs, and provide better service without increasing our headcount. It's been the perfect solution for our growth.\"",
   },
 ];

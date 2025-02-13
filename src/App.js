@@ -17,6 +17,7 @@ import WhatsAppIcon from "./components/WhatsAppIcon";
 import { Toaster } from "react-hot-toast";
 import MVPLandingPage from "./pages/MVPLandingPage";
 import ChatBotLandingPage from "./pages/ChatBotLandingPage";
+import AiCallingLandingPage from "./pages/AiCallingLandingPage";
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 
@@ -66,6 +67,10 @@ function App() {
             <Route
               path="/chatbot-development"
               element={<ChatBotLandingPage />}
+            />
+            <Route
+              path="/aicalling-development"
+              element={<AiCallingLandingPage />}
             />
           </Routes>
         </Router>

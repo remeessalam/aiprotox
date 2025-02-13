@@ -1,10 +1,12 @@
 import React from "react";
 import { useKeenSlider } from "keen-slider/react";
-import { testimonials } from "../constant";
+import { aiCallingtestimonials, testimonials } from "../constant";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import SubHeading from "./SubHeading";
+import { useLocation } from "react-router-dom";
 
 const Testimonials = () => {
+  const location = useLocation();
   const [sliderRef, instanceRef] = useKeenSlider(
     {
       loop: true,
@@ -52,6 +54,10 @@ const Testimonials = () => {
       },
     ]
   );
+  const isAICallingPage = location.pathname === "/aicalling-development";
+  const testimonialsarray = isAICallingPage
+    ? aiCallingtestimonials
+    : testimonials;
 
   // Button click handler
   const handleNextClick = () => {
@@ -86,7 +92,7 @@ const Testimonials = () => {
             </button>
           </div>
           <div ref={sliderRef} className="keen-slider" data-aos="fade-up">
-            {testimonials.map((item) => (
+            {testimonialsarray.map((item) => (
               <div
                 key={item.id}
                 className="keen-slider__slide text-center justify-between text-black p-5 bg-tertiary rounded-xl flex flex-col gap-4"

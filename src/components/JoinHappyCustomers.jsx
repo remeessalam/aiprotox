@@ -52,18 +52,20 @@ const JoinHappyCustomers = () => {
   });
   return (
     <div
+      data-aos="fade-up"
+      data-aos-offset="-900"
       className="py-[5rem] bg-center bg-cover relative text-white max-w-[95%] mx-auto rounded-xl"
       // style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="absolute top-0 w-full h-full bg-secondary rounded-xl"></div>
       <div className="relative z-10 rounded-xl">
-        <div data-aos="fade-up" className="wrapper ">
+        <div className="wrapper ">
           <h2 className="sub-heading max-w-[60rem] mx-auto text-center">
             {/* Join Our <span className="text-primary">100+</span> Happy Clients */}
             Trusted BY 100+ Happy Clients
           </h2>
         </div>
-        <div data-aos="fade-up" ref={sliderRef} className="keen-slider mt-9">
+        <div ref={sliderRef} className="keen-slider mt-9">
           {[img1, img2, img3, img4, img5, img6, img7].map((img, index) => (
             <div
               key={index}
