@@ -53,7 +53,7 @@ const JoinHappyCustomers = () => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="-900"
+      data-aos-offset="-1300"
       className="py-[5rem] bg-center bg-cover relative text-white max-w-[95%] mx-auto rounded-xl"
       // style={{ backgroundImage: `url(${bgImg})` }}
     >
