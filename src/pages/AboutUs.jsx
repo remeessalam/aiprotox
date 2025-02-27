@@ -69,7 +69,7 @@ const AboutUs = () => {
               <p className="desc">
                 At <b>AIPROTOX</b>, we leverage the transformative power of
                 artificial intelligence to catalyse remarkable change across
-                industries. Our unwaveringcommitment to transparency and
+                industries. Our unwavering commitment to transparency and
                 reliability is what truly sets us apart in a crowded
                 marketplace.
               </p>
