@@ -44,7 +44,7 @@ export const companyDetails = {
   whatsapp: "+917008725766",
   address:
     "Unit 101, Oxford Towers, 139, HAL Old Airport Road Kodihalli, Bangalore , KA, India- 560008",
-  email: "example@gmail.com",
+  email: "info@aiprotox.com",
   linkedin: "",
   instagram: "",
   twitter: "",
