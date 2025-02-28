@@ -33,6 +33,9 @@ import {
   FaBox,
   FaChartBar,
 } from "react-icons/fa";
+import blogimage1 from "./assets/images/blog1-1.jpeg";
+import blogimage2 from "./assets/images/blog1-2.jpeg";
+import BlogPage from "./pages/Blog";
 
 export { logoImg };
 
@@ -69,9 +72,9 @@ export const routes = [
     element: <ContactUs />,
   },
   {
-    // path: "/contact-us",
+    path: "/blogs",
     name: "Blog",
-    // element: <ContactUs />,
+    element: <BlogPage />,
   },
 ];
 
@@ -473,5 +476,39 @@ export const aiCallingtestimonials = [
     position: "Operations Director, Elevate Consulting",
     img: require("./assets/images/testimonial.png"),
     desc: "\"As a growing business, we were looking for ways to scale without having to constantly hire additional staff. [Your Company Name]'s AI-powered solutions made that possible. Their system handles everything from customer inquiries to appointment scheduling and order tracking. This has allowed us to streamline our operations, save on costs, and provide better service without increasing our headcount. It's been the perfect solution for our growth.\"",
+  },
+];
+
+export const blogData = [
+  {
+    id: 1,
+    image: blogimage1,
+    title: "AI A Must-Have for Modern Businesses",
+    describtion: `In today's fast-changing and competitive world, businesses need artificial intelligence (AI) to stay ahead, work efficiently, and grow. No matter the size or location, companies that ignore AI may struggle to keep up. It's is no longer just an option; it has become essential worldwide.
+`,
+    sections: [
+      {
+        heading: "Improving Work Efficiency and Decision-Making",
+        content:
+          "AI helps businesses by automating repetitive tasks, so employees can focus on more important work. From AI-powered customer service chatbots to automatic data analysis, it makes work easier and faster. Many startups and companies are using it to increase productivity. AI also helps businesses analyse large amounts of data to make smarter decisions. It can predict trends, customer preferences, helping industries like e-commerce, finance, healthcare stay ahead.",
+      },
+      {
+        heading: "Cutting Costs and Increasing Profits",
+        content:
+          "AI helps companies save money and increase profits. Predictive-AI can prevent machine breakdowns, reducing repair costs. It also improves supply chains, reduces waste, and automates marketing strategies to attract more customers. Businesses using AI-powered analytics can boost their earnings. AI-driven chatbots, virtual assistants, and product recommendations provide personalized services, leading to happier customers in online businesses.",
+      },
+      {
+        heading: "AI for Security and Business Growth",
+        imagetwo: blogimage2,
+        content:
+          "Cybersecurity is a major concern for businesses today. AI helps by detecting and stopping security threats in real time. This is especially important for businesses handling sensitive financial, healthcare, or government data. It also makes it easier for companies to expand. Whether it's a startup in local or a global company, AI-powered cloud solutions help businesses grow without needing expensive infrastructure.",
+      },
+      {
+        heading: "AI the Future of Business",
+        content:
+          "AI is no longer just a tool it is a key part of business success in worldwide. It helps businesses work smarter, make better decisions, improve customer experience and stay competitive. Companies that are shifting to AI today will have a better future with more growth, innovation, and sustainability. Those who ignore it may fall behind in an AI-driven world. The future belongs to businesses that use AI to grow and succeed in digital economy.",
+      },
+    ],
+    images: ["/images/ai-business-1.jpg", "/images/ai-business-2.jpg"],
   },
 ];

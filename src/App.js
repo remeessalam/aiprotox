@@ -18,6 +18,7 @@ import { Toaster } from "react-hot-toast";
 import MVPLandingPage from "./pages/MVPLandingPage";
 import ChatBotLandingPage from "./pages/ChatBotLandingPage";
 import AiCallingLandingPage from "./pages/AiCallingLandingPage";
+import BlogPage from "./pages/BlogPage";
 const LandingPage = lazy(() => import("./pages/LandingPage"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 
@@ -53,6 +54,7 @@ function App() {
 
             <Route path="*" element={<Navigate to="/" />} />
             <Route path="/thank-you" element={<ThankYou />} />
+            <Route path="/blog/:id" element={<BlogPage />} />
 
             {/* Landing pages */}
             <Route
